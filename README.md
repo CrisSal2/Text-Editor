@@ -6,6 +6,8 @@
 ## Description
   
   - A text editor that saves your text!
+
+  ![Webpage Preview](./client/src/images/Screenshot%20(59).png)
   
 ## Table of Contents
   
