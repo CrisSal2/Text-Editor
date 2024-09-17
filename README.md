@@ -1,47 +1,54 @@
 ## Text-Editor
 
-  # License
-  ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
-  
+### License
+![License](https://img.shields.io/badge/License-MIT-yellow.svg)
+
 ## Description
   
-  - A text editor that saves your text!
+- **Text-Editor** is a Progressive Web Application (PWA) that allows you to write, edit, and save your text offline or online. The app uses service workers and IndexedDB to cache files and store data, providing a seamless experience even when you lose internet access.
 
-  ![Webpage Preview](./client/src/images/Screenshot%20(59).png)
+- Live site: [https://text-editor-cvxe.onrender.com](https://text-editor-cvxe.onrender.com)
+
+![Webpage Preview](./client/src/images/Screenshot%20(59).png)
   
 ## Table of Contents
   
-  - [Installation](#installation)
-  - [Features](#features)
-  - [Usage](#usage)
-  - [Contribution](#contribution)
-  - [Tests](#tests)
-  - [Questions](#questions)
+- [Installation](#installation)
+- [Features](#features)
+- [Technologies](#technologies)
+- [License](#license)
+- [Questions](#questions)
   
 ## Installation
   
-  - na
+- Clone the repository
+  
+- cd client && npm install
+  
+- cd ../server && npm install
+
+- npm run dev
+
   
 ## Features
   
-  - na
+ - Offline capabilities using service workers and IndexedDB.
+    
+ - Installs as a Progressive Web Application (PWA).
+    
+ - Saves text content locally, allowing for text recovery when the app is reopened.
 
 
-## Usage
+## Technologies
+
+- JavaScript, HTML, CSS
   
-  - na
+- Backend: Node.js, Express
   
+- Build Tools: Webpack, Babel
   
-## Contribution
-  
-  - na
-  
-  
-## Tests
-  
-  - na
-  
-  
+- PWA: Service Workers for caching and offline functionality
+
 ## Questions
   
   - https://github.com/crissal2
